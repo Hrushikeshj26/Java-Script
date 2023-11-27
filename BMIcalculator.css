@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans',SemiBold;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to right, red,blue);
+    color: white;
+}
+h1{
+    margin: 20px 0 0 60px;
+    color: black
+}
+.containor{
+    background-color: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(5px);
+    width: 400px;
+    height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.774);
+    border-radius: 20px;
+    margin: 20vh 0 30vh 70vh;
+}
+form{
+    margin: 60px 0 0 60px;
+}
+
+form button{
+    background-color: orangered;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0 5px 60px;
+}
+#result{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+}
