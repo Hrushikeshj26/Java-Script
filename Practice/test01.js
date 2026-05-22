@@ -1,3 +1,5 @@
+//Filter, Map, Reduce
+
 const cartItems = [
   { id: 1, name: "Wireless Mouse", price: 800, quantity: 2, inStock: true },
   {
