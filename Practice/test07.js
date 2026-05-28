@@ -1,4 +1,4 @@
-// Async Await
+// Async Await with resolve/reject
 
 
 function fetchUserProfile() {
