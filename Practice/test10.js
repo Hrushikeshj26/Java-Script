@@ -1,10 +1,45 @@
+let num = 1234;
 
-const arr = [2, 8, 5, 9, 63, 45, 86]
+// Sum of given digit....
+function sumOfDigit(number){
 
-num1 = 63;
+    let str = number.toString();
+    sum = 0;
 
-result = arr.findIndex( (num) => num == num1)
-result2 = arr.filter( (num) => num == num1 )
+    for( let i=0; i<str.length; i++){
+        sum += parseInt(str[i], 10);
+    }
 
-console.log(`Your index of number is ${result}`);
-console.log(`Your index number is ${result2}`);
+    return sum;
+}
+console.log(sumOfDigit(num));
+
+// ..................................................................
+
+// Count Digits.....
+
+function countDigit(number){
+
+    let str = number.toString();
+    return str.length;
+}
+
+console.log(countDigit(num));
+
+//...................................................................
+
+// Reverse a Number.......
+ function reverseNum(number){
+
+    let str = number.toString();
+    reverseNumber = '';
+
+    for(i=str.length -1; i >= 0; i--){
+        reverseNumber += parseInt(str[i], 10)
+    }
+
+    return reverseNumber;
+
+ }
+ console.log(reverseNum(num));
+ 
