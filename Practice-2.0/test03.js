@@ -17,4 +17,24 @@ for (const number of arr) {
   }
 }
 
+// using normal for loop 
+
+for( let i=0; i<arr.length; i++){
+    let number = arr[i];
+    if( counts[number] === undefined){
+        counts[number] = 1;
+    }else{
+        counts[number] = counts[number] + 1;
+    }
+}
+
+for( let i=0; i<arr.length; i++){
+    let number = arr[i];
+    if(counts[number] === 1){
+        console.log(number);
+    }
+}
+
+
 console.log(counts);
+
